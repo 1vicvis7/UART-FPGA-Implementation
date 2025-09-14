@@ -1,8 +1,9 @@
 # UART-FPGA-Implementation
 
 Hi friends 😉!!,
-This project is implemented jointly by me and my friend Abhishek Zinzuvadiya [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="24" width="24"/>](https://www.linkedin.com/in/abhishek-zinzuvadiya/)
-This is a project that implements a full-duplex communication system for FPGAs, inspired by UART serial communication. It showcases a robust data path that includes data encryption, error-correcting code, and real-time error correction, ensuring reliable data transmission.
+This project is implemented jointly by me and my friend Abhishek Zinzuvadiya [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="24" width="24"/>](https://www.linkedin.com/in/abhishek-zinzuvadiya/).
+
+This is a project that implements a UART serial communication between two FPGAs. It showcases a robust data path that includes data encryption, error-correcting code, and real-time error correction, ensuring reliable data transmission.
 - Serial Communication (tx and rx modules): The design uses a parallel-in, serial-out (PISO) transmitter and a serial-in, parallel-out (SIPO) receiver to send and receive data bit-by-bit.
 - Data Encryption (Encryption module): The data is encrypted before transmission, adding a layer of security to the communication link.
 - Hamming Code Encoding (encoding module): A Hamming code is applied to the data, adding redundant bits that enable error detection and correction.
